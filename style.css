@@ -1,0 +1,67 @@
+body {
+  min-height: 200px;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+  border: dotted 2px grey;
+  overflow: auto;
+}
+
+header {
+  height: 100px;
+}
+
+#logo {
+  height: 100%;
+  float: left;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+header p {
+  float: left;
+}
+
+/* div com id="main" */
+#main {
+  width: 100%;
+}
+
+iframe {
+  width: 650px;
+  height: 860px;
+}
+
+main {
+  float: left;
+  width: 65%;
+}
+
+section,
+article {
+  min-height: 150px;
+}
+
+aside {
+  min-height: 304px;
+  width: 30%;
+  float: right;
+}
+
+footer {
+  clear: both;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <!-- um conteiner para metadados-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <!-- define o corpo de um documento-->
+  <body>
+    <!-- É usada como um contêiner-->
+    <div>
+      <!-- Cabeçalho-->
+      <header>
+        <!-- Imagem-->
+        <img id="logo" src="imagens/logo_transparent.png" />
+        <!-- Parágrafo-->
+        <p>
+          Seu pet é valioso como o ouro.
+        </p>
+      </header>
+      <!-- Define um conjunto de links-->
+      <nav>
+        <!-- Cria listas não ordenadas-->
+        <ul>
+          <!-- Define um item de lista-->
+          <li>
+            <a href="home.html" target="iframe">Home</a>
+          </li>
+          <li>
+            <a href="about.html" target="iframe">About</a>
+          </li>
+          <li>
+            <a href="services.html" target="iframe">Services</a>
+          </li>
+          <li>
+            <a href="contact.html" target="iframe">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="main">
+        <iframe name="iframe" src="home.html"> </iframe>
+        <!-- define algum conteúdo-->
+        <aside>
+          <!-- Usado pra marcar uma parte de um txto-->
+          <span>Sidebar</span>
+        </aside>
+      </div>
+      <!-- Rodapé-->
+      <footer>
+        <span>Footer</span>
+      </footer>
+    </div>
+  </body>
+</html>
