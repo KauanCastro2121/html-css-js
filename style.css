@@ -65,3 +65,23 @@ aside {
 footer {
   clear: both;
 }
+
+nav div{
+  border: 1px solid black;
+  padding: 5px 15px;
+  border-radius:10px;
+  background-color: lightgrey;
+  color: black;
+}
+
+nav li{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+nav div:hover{
+  background-color: darkgrey;
+  color: white;
+
+}
