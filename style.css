@@ -14,6 +14,8 @@ footer {
 
 header {
   height: 100px;
+  background-color: #22224a;
+
 }
 
 #logo {
@@ -34,6 +36,10 @@ nav li {
 
 header p {
   float: left;
+  margin-top: 18px;
+  font-size: 2.5em;
+  font-family: cursive;
+  color: #b89069;
 }
 
 /* div com id="main" */
@@ -64,6 +70,8 @@ aside {
 
 footer {
   clear: both;
+  min-height: 100px;
+  background-color: #22224a;
 }
 
 nav div{
