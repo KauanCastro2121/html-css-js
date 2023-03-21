@@ -15,12 +15,17 @@ footer {
 header {
   height: 100px;
   background-color: #22224a;
-
+  display: flex;
+  align-items: center;
 }
 
 #logo {
   height: 100%;
   float: left;
+}
+
+nav {
+  background-color: #22224a;
 }
 
 nav ul {
@@ -36,7 +41,7 @@ nav li {
 
 header p {
   float: left;
-  margin-top: 18px;
+  margin: initial;
   font-size: 2.5em;
   font-family: cursive;
   color: #b89069;
@@ -75,11 +80,12 @@ footer {
 }
 
 nav div{
-  border: 1px solid black;
+  border: 2px solid lightgrey;
   padding: 5px 15px;
   border-radius:10px;
   background-color: lightgrey;
   color: black;
+  margin-bottom: 5px;
 }
 
 nav li a{
@@ -89,7 +95,7 @@ nav li a{
 }
 
 nav div:hover{
-  background-color: darkgrey;
-  color: white;
-
+  background-color: #22224a;
+  color: #b89069;
+  border: 2px solid #b89069;
 }
